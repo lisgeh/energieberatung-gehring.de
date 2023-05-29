@@ -1,0 +1,16 @@
+<div class="my-5 d-flex justify-content-around">
+    <div class="contact-grid">
+      <div><i class="fa-solid fa-envelope"></i></div>
+      <div>E-Mail:</div>
+      <div><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+      <div><i class="fa-solid fa-phone"></i></div>
+      <div>Telefon:</div>
+      <div>{{ site.phone }}</div>
+      <div><i class="fa-solid fa-globe"></i></div>
+      <div>Website:</div>
+      <div><a href="{{ site.url }}{{ site.baseurl }}">{{ site.url }}{{ site.baseurl }}</a></div>
+      <div><i class="fa-solid fa-house"></i></div>
+      <div>Adresse:</div>
+      <div>{{ site.address | newline_to_br }}</div>
+    </div>
+  </div>

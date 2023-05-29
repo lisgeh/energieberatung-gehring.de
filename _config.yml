@@ -1,0 +1,23 @@
+title: |
+  Energie­beratung
+  Peter Gehring
+url: https://energieberatung-gehring.de
+baseurl: ""
+
+profile_picture: peter_gehring.png
+
+email: p_gehring@web.de
+phone: 06188/7623
+address : |
+  Karolingerring 25
+  63791 Karlstein a. M.
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - default.nix
+  - gemset.nix
+  - vendor
+  - node_modules
+  - package-lock.json
+  - package.json

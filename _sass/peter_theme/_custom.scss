@@ -1,0 +1,50 @@
+html {
+  margin: 0;
+  background-color: $primary;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img.profile-picture { 
+  width: 70%;
+  @include media-breakpoint-up(sm) {
+    width: 50%;
+  }
+  // @include media-breakpoint-up(md) {
+  //   width: 60%;
+  // }
+  @include media-breakpoint-up(xl) {
+    width: 40%;
+  }
+}
+
+h1.site-title {
+  @include media-breakpoint-up(md) {
+    font-size: 3rem;
+  }
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  color: $white;
+}
+
+div.contact-grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: min-content min-content auto;
+  gap: 0.5rem;
+  color: $white;
+
+  --bs-link-color: #{$yellow};
+  --bs-link-hover-color: shift-color(#{$yellow}, 20%);
+}
+
+div.contact-grid div {
+  white-space: wrap;
+  word-wrap: break-all;
+}

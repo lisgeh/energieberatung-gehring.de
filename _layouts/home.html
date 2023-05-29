@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="container-fluid bg-primary py-4">
+  <h1 class="site-title text-center">{{ site.title | newline_to_br }}</h1>
+</div>
+
+<div class="container py-4">
+  <div class="text-center my-4">
+  <img
+    class = "profile-picture"
+    src = "{{ base_url }}/assets/img/{{ site.profile_picture }}"
+    alt = "Profilbild Peter Gehring"
+  />
+  </div>
+  {{ content }}
+</div>
+
+<div class="container-fluid bg-primary py-4">
+  <div class="d-flex justify-content-around">
+    <div class="contact-grid">
+      <div><i class="fa-solid fa-envelope"></i></div>
+      <div>E-Mail:</div>
+      <div><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+      <div><i class="fa-solid fa-phone"></i></div>
+      <div>Telefon:</div>
+      <div>{{ site.phone }}</div>
+      <div><i class="fa-solid fa-globe"></i></div>
+      <div>Website:</div>
+      <div><a href="{{ site.url }}{{ site.baseurl }}">{{ site.url }}{{ site.baseurl }}</a></div>
+      <div><i class="fa-solid fa-house"></i></div>
+      <div>Adresse:</div>
+      <div>{{ site.address | newline_to_br }}</div>
+    </div>
+  </div>
+</div>
