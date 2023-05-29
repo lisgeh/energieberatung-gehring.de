@@ -64,14 +64,38 @@ $container-max-widths: (
   // xxl: 1320px
 ) !default;
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+/* rubik-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfonts/rubik-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../webfonts/rubik-v26-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../webfonts/rubik-v26-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 $font-family-sans-serif:      'Rubik', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-// stylelint-enable value-keyword-case
 
 $font-size-root:              null !default;
-$font-size-base:              1.2rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              1.2rem !default;
 $font-size-sm:                $font-size-base * .875 !default;
 $font-size-lg:                $font-size-base * 1.25 !default;
 
