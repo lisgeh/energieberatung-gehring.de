@@ -2,8 +2,7 @@
 layout: home
 ---
 
- <p> Herzlich Willkommen auf meiner Webseite. Ich bin Dipl. Ing. (univ) Maschinenbau, Fachrichtung Energie- und Kraftwerkstechnik. 2006 habe ich eine Zertifizierung zum Energieberater (HWK) in Würzburg absolviert. 
-    Nach 35 Jahren in der Industrie (Kraftwerkstechnik, Anlagenbau),bin ich seit 2022 als Energieberater tätig.
+ <p> Herzlich Willkommen auf meiner Webseite. Ich bin Dipl. Ing. (univ) Maschinenbau, Fachrichtung Energie- und Kraftwerkstechnik. 2006 habe ich eine Zertifizierung zum Energieberater (HWK) in Würzburg absolviert. Nach 35 Jahren in der Industrie (Kraftwerkstechnik, Anlagenbau),bin ich seit 2022 als Energieberater tätig.
     Folgende Leistungen biete ich Ihnen an:</p>
 <ul>
   <li>Vor-Ort-Beratung</li>
