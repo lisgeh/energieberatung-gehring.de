@@ -2,8 +2,13 @@
 layout: home
 ---
 
-Hallo! Ich bin Energieberater für Wohngebäude, KfW Haus, Einzelmaßnahme nach BEG, iSFP (individueller Sanierungsfahrplan) und unterstütze Sie gern bei Ihrem Vorhaben.
-
-- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-- At vero eos et accusam et justo duo dolores et ea rebum. 
-- Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+ <p> Herzlich Willkommen auf meiner Webseite. Ich bin Dipl. Ing. (univ) Maschinenbau, Fachrichtung Energie- und Kraftwerkstechnik. 2006 habe ich eine Zertifizierung zum Energieberater (HWK) in Würzburg absolviert. 
+    Nach 35 Jahren in der Industrie (Kraftwerkstechnik, Anlagenbau),bin ich seit 2022 als Energieberater tätig.
+    Folgende Leistungen biete ich Ihnen an:</p>
+<ul>
+  <li>Vor-Ort-Beratung</li>
+  <li>ISFP Individueller Sanierungsfahrplan</li>
+  <li>Fördermittelberatung</li>
+  <li>Energieausweis</li>
+  <li>GEG Nachweis</li>
+</ul>
