@@ -7,7 +7,7 @@ layout: home
 
 - Dipl. Ing. (univ) Maschinenbau, Fachrichtung Energie- und Kraftwerkstechnik
 - 2006 Energieberater (HWK) in Würzburg
-- nach 35 Jahren in der Industrie (Kraftwerkstechnik, Anlagenbau) bin ich seit 2022 als  Energieberater tätig
+- nach 35 Jahren in der Industrie (Kraftwerkstechnik, Anlagenbau) bin ich seit 2022 als Energieberater tätig
 
 
 ### Meine Leistungen:
